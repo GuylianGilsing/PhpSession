@@ -88,7 +88,7 @@ abstract class AbstractSession implements SessionInterface
 
     private function updateData()
     {
-        $_SESSION[$this->name] = $this->data;
+        $_SESSION[$this->name]['_data'] = $this->data['_data'];
     }
 
     private function throwSessionNotExistException()
