@@ -1,7 +1,6 @@
 <?php
 namespace GuylianGilsing\PhpSession\Configuration\Rules;
 
-use UnexpectedValueException;
 use GuylianGilsing\PhpSession\AbstractSession;
 
 class TimeoutRule implements RuleInterface
