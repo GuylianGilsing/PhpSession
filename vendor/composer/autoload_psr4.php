@@ -6,5 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'GuylianGilsing\\PhpSession\\Configuration\\Rules\\' => array($baseDir . '/src/Configuration/Rules'),
+    'GuylianGilsing\\PhpSession\\Configuration\\' => array($baseDir . '/src/Configuration'),
     'GuylianGilsing\\PhpSession\\' => array($baseDir . '/src'),
 );

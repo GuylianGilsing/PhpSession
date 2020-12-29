@@ -8,6 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'GuylianGilsing\\PhpSession\\AbstractSession' => $baseDir . '/src/AbstractSession.php',
+    'GuylianGilsing\\PhpSession\\Configuration\\Configuration' => $baseDir . '/src/Configuration/Configuration.php',
+    'GuylianGilsing\\PhpSession\\Configuration\\ConfigurationInterface' => $baseDir . '/src/Configuration/ConfigurationInterface.php',
+    'GuylianGilsing\\PhpSession\\Configuration\\Rules\\RuleInterface' => $baseDir . '/src/Configuration/Rules/RuleInterface.php',
+    'GuylianGilsing\\PhpSession\\Configuration\\Rules\\TimeoutRule' => $baseDir . '/src/Configuration/Rules/TimeoutRule.php',
     'GuylianGilsing\\PhpSession\\Session' => $baseDir . '/src/Session.php',
     'GuylianGilsing\\PhpSession\\SessionInterface' => $baseDir . '/src/SessionInterface.php',
 );

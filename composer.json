@@ -15,7 +15,9 @@
     ],
     "autoload": {
         "psr-4": {
-            "GuylianGilsing\\PhpSession\\": "src"
+            "GuylianGilsing\\PhpSession\\": "src",
+            "GuylianGilsing\\PhpSession\\Configuration\\": "src/Configuration",
+            "GuylianGilsing\\PhpSession\\Configuration\\Rules\\": "src/Configuration/Rules"
         }
     }
 }

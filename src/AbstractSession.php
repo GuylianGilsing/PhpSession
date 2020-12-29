@@ -15,6 +15,11 @@ abstract class AbstractSession implements SessionInterface
         $this->name = $name;
     }
 
+    public function getName() : string
+    {
+        return $this->name;
+    }
+
     public function setData($data) : void
     {
         if(!is_array($data))

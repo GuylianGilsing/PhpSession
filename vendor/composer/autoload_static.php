@@ -9,11 +9,21 @@ class ComposerStaticInita9e20cff5ca1bfdd873623baeb247a75
     public static $prefixLengthsPsr4 = array (
         'G' => 
         array (
+            'GuylianGilsing\\PhpSession\\Configuration\\Rules\\' => 46,
+            'GuylianGilsing\\PhpSession\\Configuration\\' => 40,
             'GuylianGilsing\\PhpSession\\' => 26,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'GuylianGilsing\\PhpSession\\Configuration\\Rules\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Configuration/Rules',
+        ),
+        'GuylianGilsing\\PhpSession\\Configuration\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Configuration',
+        ),
         'GuylianGilsing\\PhpSession\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -23,6 +33,10 @@ class ComposerStaticInita9e20cff5ca1bfdd873623baeb247a75
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'GuylianGilsing\\PhpSession\\AbstractSession' => __DIR__ . '/../..' . '/src/AbstractSession.php',
+        'GuylianGilsing\\PhpSession\\Configuration\\Configuration' => __DIR__ . '/../..' . '/src/Configuration/Configuration.php',
+        'GuylianGilsing\\PhpSession\\Configuration\\ConfigurationInterface' => __DIR__ . '/../..' . '/src/Configuration/ConfigurationInterface.php',
+        'GuylianGilsing\\PhpSession\\Configuration\\Rules\\RuleInterface' => __DIR__ . '/../..' . '/src/Configuration/Rules/RuleInterface.php',
+        'GuylianGilsing\\PhpSession\\Configuration\\Rules\\TimeoutRule' => __DIR__ . '/../..' . '/src/Configuration/Rules/TimeoutRule.php',
         'GuylianGilsing\\PhpSession\\Session' => __DIR__ . '/../..' . '/src/Session.php',
         'GuylianGilsing\\PhpSession\\SessionInterface' => __DIR__ . '/../..' . '/src/SessionInterface.php',
     );
