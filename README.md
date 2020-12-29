@@ -3,7 +3,7 @@ A simple package for handling sessions in your application
 
 ## Installation
 ```bash
-$ composer install guyliangilsing/phpsession
+$ composer require guyliangilsing/phpsession
 ```
 
 ## Documentation

@@ -13,6 +13,9 @@
             "role": "developer"
         }
     ],
+    "require": {
+        "php": ">=7.4"
+    },
     "autoload": {
         "psr-4": {
             "GuylianGilsing\\PhpSession\\": "src",
