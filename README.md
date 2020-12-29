@@ -7,4 +7,4 @@ $ composer install guyliangilsing/phpsession
 ```
 
 ## Documentation
-The documentation is availlable in the wiki.
+The documentation is availlable in the [wiki](https://github.com/GuylianGilsing/PhpSession/wiki).
