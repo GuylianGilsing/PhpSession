@@ -1,0 +1,23 @@
+{
+    "name": "guyliangilsing/phpsession",
+    "type": "lib",
+    "description": "A package that provides object oriented syntax for working with sessions.",
+    "keywords": ["sessions"],
+    "homepage": "https://github.com/GuylianGilsing/PhpSession",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guylian Gilsing",
+            "email": "gilsingguylian@gmail.com",
+            "homepage": "https://guyliangilsing.me",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GuylianGilsing\\PhpSession\\": "src",
+            "GuylianGilsing\\PhpSession\\Configuration\\": "src/Configuration",
+            "GuylianGilsing\\PhpSession\\Configuration\\Rules\\": "src/Configuration/Rules"
+        }
+    }
+}
