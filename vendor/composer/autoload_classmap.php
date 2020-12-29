@@ -12,6 +12,8 @@ return array(
     'GuylianGilsing\\PhpSession\\Configuration\\ConfigurationInterface' => $baseDir . '/src/Configuration/ConfigurationInterface.php',
     'GuylianGilsing\\PhpSession\\Configuration\\Rules\\RuleInterface' => $baseDir . '/src/Configuration/Rules/RuleInterface.php',
     'GuylianGilsing\\PhpSession\\Configuration\\Rules\\TimeoutRule' => $baseDir . '/src/Configuration/Rules/TimeoutRule.php',
+    'GuylianGilsing\\PhpSession\\Creation\\FactoryInterface' => $baseDir . '/src/Creation/FactoryInterface.php',
+    'GuylianGilsing\\PhpSession\\Creation\\SessionFactory' => $baseDir . '/src/Creation/SessionFactory.php',
     'GuylianGilsing\\PhpSession\\Session' => $baseDir . '/src/Session.php',
     'GuylianGilsing\\PhpSession\\SessionInterface' => $baseDir . '/src/SessionInterface.php',
 );

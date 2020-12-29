@@ -37,6 +37,8 @@ class ComposerStaticInita9e20cff5ca1bfdd873623baeb247a75
         'GuylianGilsing\\PhpSession\\Configuration\\ConfigurationInterface' => __DIR__ . '/../..' . '/src/Configuration/ConfigurationInterface.php',
         'GuylianGilsing\\PhpSession\\Configuration\\Rules\\RuleInterface' => __DIR__ . '/../..' . '/src/Configuration/Rules/RuleInterface.php',
         'GuylianGilsing\\PhpSession\\Configuration\\Rules\\TimeoutRule' => __DIR__ . '/../..' . '/src/Configuration/Rules/TimeoutRule.php',
+        'GuylianGilsing\\PhpSession\\Creation\\FactoryInterface' => __DIR__ . '/../..' . '/src/Creation/FactoryInterface.php',
+        'GuylianGilsing\\PhpSession\\Creation\\SessionFactory' => __DIR__ . '/../..' . '/src/Creation/SessionFactory.php',
         'GuylianGilsing\\PhpSession\\Session' => __DIR__ . '/../..' . '/src/Session.php',
         'GuylianGilsing\\PhpSession\\SessionInterface' => __DIR__ . '/../..' . '/src/SessionInterface.php',
     );
