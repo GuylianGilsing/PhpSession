@@ -22,28 +22,11 @@ abstract class AbstractSession implements SessionInterface
 
     public function setData($data) : void
     {
-        if(!is_array($data))
-        {
-            if(count($this->data['_data']) > 0)
-            {
-                $this->data['_data'][0] = $data;
-            }
-            else
-            {
-                $this->data['_data'][] = $data;
-            }
-        }
-        else
-        {
-            $this->data['_data'] = $data;
-        }
+        $this->data['_data'] = $data;
     }
 
     public function getData()
     {
-        if(count($this->data['_data']) == 1)
-            return $this->data['_data'][0];
-
         return $this->data['_data'];
     }
 
